@@ -1,0 +1,6 @@
+<h2>Our lovely offerings:</h2>
+<div *ngFor="let album of albums" (click)="goToDetailPage(album)" class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h3><em>{{album.title}}</em> by {{album.artist}}</h3>
+  </div>
+</div>
