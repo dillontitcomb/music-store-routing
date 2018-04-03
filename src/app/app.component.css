@@ -1,10 +1,10 @@
 .footer {
-  
   text-align: right;
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: cornflowerblue;
+  background-color: #468599;
   padding: 15px;
+
 }

@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+.mainContent {
+  padding-bottom: 200px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+    background-color: #EFFFFE;
+
+}
+
+.jumbotron {
+  background-color: #468599;
+
+}
+
+h1{
+  font-size: 4em;
+}
+
+#albumDescription {
+  font-family: 'Yatra One', cursive;
+  font-size: .75em;
+}

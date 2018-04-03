@@ -21,3 +21,7 @@
     <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value); newTitle.value=''; newArtist.value=''; newDescription.value=''">Add</button>
   </div>
 </div>
+<div>
+  <app-marketplace></app-marketplace>
+  <li *ngFor="let description of albums"> </li> 
+</div>

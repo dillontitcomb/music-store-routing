@@ -2,3 +2,18 @@ h3:hover {
   text-decoration: underline;
   color: blue;
 }
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+  margin: 20px auto;
+}
+
+.tn{
+  margin: 10px;
+  border: 5px solid white;
+  box-shadow: #555 1px 1px 8px 1px;
+}
