@@ -17,6 +17,11 @@ export class AlbumService {
    this.albums.push(newAlbum);
   }
 
+  deleteAlbum(localAlbumToDelete){
+    var albumEntryInFirebase = this.getAlbumById(localAlbumToDelete.$key);
+    albumEntryInFirebase.remove();
+  }
+
   updateAlbum(localUpdatedAlbum){
    let albumEntryInFirebase = this.getAlbumById(localUpdatedAlbum.$key);
     albumEntryInFirebase.update({title: localUpdatedAlbum.title,
